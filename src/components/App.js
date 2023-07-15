@@ -1,7 +1,7 @@
 import React from 'react';
 import "../styles/App.css";
 import Layout from './Layout';
-import Login from './pages/Login';
+import Result from './pages/Result';
 
 const App = () => {
   return (
@@ -10,7 +10,8 @@ const App = () => {
         {/* <Home/> */}
         {/* <Signup/> */}
         {/* <Quiz/> */}
-        <Login/>
+        {/* <Login/> */}
+        <Result/>
       </Layout>
     </div>
   );
