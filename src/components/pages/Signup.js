@@ -13,7 +13,7 @@ const Signup = () => {
         
         <Illustration />
         
-        <Form className={`${classes.signup}`}>
+        <Form className={`${classes.signup} signup`}>
           <TextInput type="text" placeholder="Enter name" icon="person" />
 
           <TextInput
@@ -31,7 +31,9 @@ const Signup = () => {
           />
           <Checkbox text="I agree to the Terms &amp; Conditions" />
 
-          <Button>Submit now</Button>
+          <Button>
+            <span>Submit now</span>
+          </Button>
 
           <div className="info">
             Already have an account? <a href="login.html">Login</a> instead.

@@ -1,15 +1,16 @@
 import React from 'react';
 import "../styles/App.css";
 import Layout from './Layout';
-import Signup from './pages/Signup';
+import Login from './pages/Login';
 
 const App = () => {
   return (
     <div className='App'>
       <Layout>
         {/* <Home/> */}
-        <Signup/>
-        {/* <Login/> */}
+        {/* <Signup/> */}
+        {/* <Quiz/> */}
+        <Login/>
       </Layout>
     </div>
   );

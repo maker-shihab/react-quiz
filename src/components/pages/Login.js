@@ -12,7 +12,7 @@ const Login = () => {
 
       <div className="column">
         <Illustration/>
-        <Form className={`${classes.login}`}>
+        <Form className={`${classes.login} login`}>
         <TextInput
             type="text"
             placeholder="Enter email"
@@ -21,7 +21,9 @@ const Login = () => {
 
           <TextInput type="password" placeholder="Enter password" icon="lock" />
 
-          <Button>Submit Now</Button>
+          <Button>
+            <span>Submit Now</span>
+          </Button>
 
           <div className="info">
             Don't have an account? <a href="signup.html">Signup</a> instead.
